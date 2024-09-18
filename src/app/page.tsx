@@ -1,4 +1,3 @@
-import CountdownTimer from '@/components/CountdownTimer'
 import MainPage from '@/components/MainPage'
 import OurStory from '@/components/OurStory'
 
