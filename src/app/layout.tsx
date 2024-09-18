@@ -35,7 +35,7 @@ export default function RootLayout({
           width={100}
           height={100}
           alt='initials'
-          className='absolute rounded-full left-4 md:left-10 bottom-4 md:top-8'
+          className='fixed rounded-full left-4 md:left-10 bottom-4 md:top-8'
         />
         {children}
       </body>

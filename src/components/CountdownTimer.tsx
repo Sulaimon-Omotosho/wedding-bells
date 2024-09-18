@@ -31,9 +31,9 @@ export default function CountdownTimer() {
   const { days, hours, minutes, seconds } = formatTime(timeLeft)
 
   return (
-    <div>
-      <span className='font-bold text-5xl text-yellow-300'>
-        {days}:{hours}:{minutes}:{seconds}
+    <div className='flex justify-center'>
+      <span className='font-bold text-5xl text-center text-yellow-300'>
+        {days} : {hours} : {minutes} : {seconds}
       </span>
     </div>
   )
