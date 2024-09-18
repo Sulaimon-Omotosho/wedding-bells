@@ -3,10 +3,10 @@
 import { useEffect, useState } from 'react'
 
 export default function CountdownTimer() {
-  let targetDate = new Date(`11/11/2024`).getTime()
+  const targetDate = new Date(`11/11/2024`).getTime()
   const [timeLeft, setTimeLeft] = useState(targetDate - new Date().getTime())
 
-  const formatTime = (time: any) => {
+  const formatTime = (time: number) => {
     const days = Math.floor(time / (1000 * 60 * 60 * 24))
     const hours = Math.floor((time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
     const minutes = Math.floor((time % (1000 * 60 * 60)) / (1000 * 60))

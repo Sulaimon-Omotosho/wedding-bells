@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 export default function Navbar() {
   return (
     <div className='flex items-center justify-center h-16 bg-mainBg fixed w-full'>
