@@ -1,4 +1,7 @@
+// import { Sofadi_One } from 'next/font/google'
 import type { Config } from 'tailwindcss'
+
+const { fontFamily } = require('tailwindcss/defaultTheme')
 
 const config: Config = {
   darkMode: ['class'],
@@ -53,13 +56,20 @@ const config: Config = {
       },
       backgroundImage: {
         mainBg: "url('/assets/images/main.jpg')",
-        pending: "url('/assets/images/pending-bg.png')",
+        ourStory: "url('/assets/images/our-story.jpg')",
         cancelled: "url('/assets/images/cancelled-bg.jpg')",
       },
       borderRadius: {
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',
+      },
+      fontFamily: {
+        sans: ['var(--font-sans)', ...fontFamily.sans],
+        sofadi: ['var(--font-sofadi_one)', ...fontFamily.sans],
+        fascinate: ['var(--font-fascinate_inline)', ...fontFamily.sans],
+        vibes: ['var(--font-great_vibes)', ...fontFamily.sans],
+        indie: ['var(--font-indie_flower)', ...fontFamily.sans],
       },
     },
   },

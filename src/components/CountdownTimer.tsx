@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 
-export default function CountdownTimer() {
+const CountdownTimer = () => {
   const targetDate = new Date(`11/11/2024`).getTime()
   const [timeLeft, setTimeLeft] = useState(targetDate - new Date().getTime())
 
@@ -32,9 +32,11 @@ export default function CountdownTimer() {
 
   return (
     <div className='flex justify-center'>
-      <span className='font-bold text-5xl text-center text-yellow-300'>
+      <span className='font-bold font-fascinate text-5xl text-center text-yellow-300'>
         {days} : {hours} : {minutes} : {seconds}
       </span>
     </div>
   )
 }
+
+export default CountdownTimer
