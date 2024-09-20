@@ -6,15 +6,22 @@ import {
   Fascinate_Inline,
   Great_Vibes,
   Indie_Flower,
+  Gowun_Batang,
 } from 'next/font/google'
 import './globals.css'
 import { cn } from '@/lib/utils'
 import Navbar from '@/components/Navbar'
 import Image from 'next/image'
 
-const fontSans = Plus_Jakarta_Sans({
+// const fontSans = Plus_Jakarta_Sans({
+//   subsets: ['latin'],
+//   weight: ['300', '400', '500', '600', '700'],
+//   variable: '--font-sans',
+// })
+
+const fontSans = Gowun_Batang({
   subsets: ['latin'],
-  weight: ['300', '400', '500', '600', '700'],
+  weight: ['400', '700'],
   variable: '--font-sans',
 })
 

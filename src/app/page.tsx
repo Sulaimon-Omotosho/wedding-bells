@@ -1,3 +1,4 @@
+import Details from '@/components/Details'
 import MainPage from '@/components/MainPage'
 import OurStory from '@/components/OurStory'
 
@@ -7,6 +8,7 @@ export default function Home() {
       <div className='bg-slate-800 bg-opacity-30 h-[100vh] w-full pt-[15%] overflow-scroll remove-scrollbar'>
         <MainPage />
         <OurStory />
+        <Details />
       </div>
     </div>
   )
