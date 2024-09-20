@@ -8,13 +8,13 @@ const MainPage = () => {
       <p className='font-indie text-[60px] md:text-[80px] xl:text-[100px] text-white uppercase'>
         Taye & Ope
       </p>
-      <div className='flex items-center justify-around rounded-full bg-slate-50 w-[95%] md:w-[60%] xl:w-[40%] px-6 md:px-12 xl:px-20 py-4 md:py-6 text-slate-600 text-center'>
-        <p className='flex flex-col items-center justify-center text-lg md:text-xl w-full'>
+      <div className='flex items-center rounded-full bg-slate-50 w-[60%] md:w-[50%] lg:w-[40%] md:px-8 xl:px-20 py-4 xl:py-6 text-slate-600 text-center'>
+        <p className='flex flex-col items-center justify-center text-sm lg:text-xl w-[100vw]'>
           SATURDAY <span>Nov 11, 2024</span>
         </p>
-        <hr className='w-[150px] rotate-90 border-black' />
-        <p className='flex flex-col items-center justify-center text-lg md:text-xl w-full'>
-          3:00PM <span>Akoko, Ondo State</span>
+        <hr className='w-[150px] rotate-90 border-black bg-black' />
+        <p className='flex flex-col items-center justify-center text-sm lg:text-xl w-[100vw]'>
+          3:00PM <span>Akoko, Ondo</span>
         </p>
       </div>
       <Button className='mt-12 text-white border-white-600 hover:border-none hover:bg-slate-600 border-[1px] px-8 rounded-full'>
