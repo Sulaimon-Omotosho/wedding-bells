@@ -1,7 +1,7 @@
 export default function OurStory() {
   return (
     <div className=' bg-ourStory bg-cover h-[100vh] overflow-scroll remove-scrollbar'>
-      <div className=' w-full px-[5%] md:px-[10%] xl:px-[25%] py-20 flex flex-col items-center gap-12'>
+      <div className=' w-full px-[2%] md:px-[10%] xl:px-[25%] py-5 md:py-20 flex flex-col items-center gap-6 md:gap-12'>
         <div className='text-center'>
           <h1 className='uppercase font-fascinate text-3xl md:text-5xl'>
             our story
@@ -10,7 +10,7 @@ export default function OurStory() {
             Its A Forever Thing
           </h2>
         </div>
-        <div className='flex flex-col gap-10 text-center font-sofadi text-lg lg:text-xl text-zinc-600'>
+        <div className='flex flex-col gap-4 md:gap-10 text-center font-sofadi text-lg lg:text-xl text-zinc-600'>
           <p className=''>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
             odio fugiat cumque nesciunt, a laborum voluptatum reiciendis

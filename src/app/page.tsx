@@ -1,4 +1,5 @@
 import Details from '@/components/Details'
+import Gallery from '@/components/Gallery'
 import MainPage from '@/components/MainPage'
 import OurStory from '@/components/OurStory'
 
@@ -9,6 +10,7 @@ export default function Home() {
         <MainPage />
         <OurStory />
         <Details />
+        <Gallery />
       </div>
     </div>
   )
